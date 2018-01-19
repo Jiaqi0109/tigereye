@@ -1,4 +1,5 @@
 from flask_script import Manager, Server, Shell
+
 from tigereye.app import create_app
 from tigereye.models import db
 
@@ -13,6 +14,7 @@ def _make_context():
     from tigereye.models.order import Order
     from tigereye.models.seat import Seat, PlaySeat
     from tigereye.models.play import Play
+    from tigereye.helper.code import Code
     locals().update(globals())
     return dict(**locals())
 
@@ -54,7 +56,7 @@ def init():
 def testdata():
     from tigereye.models.cinema import Cinema
     from tigereye.models.movie import Movie
-    #  Cinema.create_test_data()
+    Cinema.create_test_data()
     Movie.create_test_data()
 
 

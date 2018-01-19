@@ -1,9 +1,12 @@
-from tigereye.models import db, Model
-import faker
 import random
+import time
 from datetime import datetime
 from math import ceil
-import time
+
+import faker
+from flask import current_app
+
+from tigereye.models import Model, db
 
 
 class Cinema(db.Model, Model):
@@ -82,4 +85,4 @@ class Cinema(db.Model, Model):
                         ps.copy(seat)
                         ps.put()
                     PlaySeat.commit()
-        print('create test data done! %.2f s' % (time.time() - time1))
+        current_app.logger.info('create test data done! %.2f s' % (time.time() - time1))

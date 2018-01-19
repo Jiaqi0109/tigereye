@@ -22,7 +22,6 @@ class Movie(db.Model, Model):
             m.name = '电影名称%s' % i
             m.language = '英文'
             m.subtitle = '中文'
-            # m.show_date =
             m.mode = '数字'
             m.vision = '2D'
             m.screen_size = 'IMAX'
