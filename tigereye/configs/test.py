@@ -1,7 +1,7 @@
-from tigereye.configs.default import DafalutConfig
+from tigereye.configs.default import DefalutConfig
 
 
-class TestConfig(DafalutConfig):
+class TestConfig(DefalutConfig):
     TESTING = True
     JSON_SORT_KEYS = False
     SQLALCHEMY_ECHO = False

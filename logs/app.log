@@ -1,0 +1,99 @@
+2018-01-20 11:56:05,401 INFO : app created succ.
+2018-01-20 11:56:05,462 INFO : app created succ.
+2018-01-20 11:56:05,525 INFO : app created succ.
+2018-01-20 11:56:05,564 INFO : app created succ.
+2018-01-20 11:56:15,330 INFO : checked from 127.0.0.1
+2018-01-20 11:59:01,644 INFO : checked from 127.0.0.1
+2018-01-20 12:02:57,183 INFO : app created succ.
+2018-01-20 12:02:57,302 INFO : app created succ.
+2018-01-20 12:02:57,323 INFO : app created succ.
+2018-01-20 12:02:57,334 INFO : app created succ.
+2018-01-20 12:06:30,299 INFO : app created succ.
+2018-01-20 12:06:30,318 INFO : app created succ.
+2018-01-20 12:06:30,374 INFO : app created succ.
+2018-01-20 12:06:30,388 INFO : app created succ.
+2018-01-20 15:15:57,425 INFO : app created succ.
+2018-01-20 15:15:57,566 INFO : app created succ.
+2018-01-20 15:15:57,615 INFO : app created succ.
+2018-01-20 15:15:57,647 INFO : app created succ.
+2018-01-20 15:16:33,372 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/__init__.py", line 43, in proxy
+    response = view(**request.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/misc.py", line 18, in error
+    1 / 0
+ZeroDivisionError: division by zero
+2018-01-20 15:37:52,936 INFO : app created succ.
+2018-01-20 15:37:53,131 INFO : app created succ.
+2018-01-20 15:37:53,174 INFO : app created succ.
+2018-01-20 15:37:53,197 INFO : app created succ.
+2018-01-20 15:37:59,199 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/__init__.py", line 43, in proxy
+    response = view(**request.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/misc.py", line 18, in error
+    1 / 0
+ZeroDivisionError: division by zero
+2018-01-20 15:39:00,558 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/__init__.py", line 43, in proxy
+    response = view(**request.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/misc.py", line 18, in error
+    1 / 0
+ZeroDivisionError: division by zero
+2018-01-20 16:03:54,569 INFO : app created succ.
+2018-01-20 16:04:01,762 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jiaqi/Documents/stageIII/tigereye/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/__init__.py", line 43, in proxy
+    response = view(**request.view_args)
+  File "/home/jiaqi/Documents/stageIII/tigereye/tigereye/api/misc.py", line 18, in error
+    1 / 0
+ZeroDivisionError: division by zero
